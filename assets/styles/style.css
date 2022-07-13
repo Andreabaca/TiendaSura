@@ -1,0 +1,31 @@
+
+.banner{
+background-image: url("../img/fotobanner.jpg");
+padding: 20% 20% 25% 3%;
+background-size: 100% 100%;
+background-position: top center;
+position: relative;
+z-index: 1;
+
+}
+
+.banner::after{
+    content:'';
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+    z-index: -1;
+   
+}
+
+.fuente{
+font-family: 'Courgette', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Roboto Serif', serif;
+color:white;
+}
